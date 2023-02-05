@@ -1,2 +1,3 @@
 - Please make sure to read Carefully
 - all file is tutorial for begginer
+- #Clickpartforcash make sure to have ClickDectector on part
