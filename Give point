@@ -1,0 +1,6 @@
+script.Parent.MouseButton1Click:Connect(function()
+	local player = game.Players.LocalPlayer
+	local point = player.leaderstats.point
+	
+	point.Value = point.Value + 1
+end)
