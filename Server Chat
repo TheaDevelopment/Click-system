@@ -1,0 +1,13 @@
+local function chat(message)
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = message, Colour = Color3.fromRGB(255), Font =  Enum.Font.SourceSansBold})
+	
+end
+
+local messages = {"[Server] Leave A Like", "[Server] Join Roblox Group", "[Server] Welcome to the game"} -- Write Text you want
+
+while true do
+	wait(1) -- Set Time to you want
+	chat(messages[math	.random(1, #messages)])
+end
+
+--@By finJay/thealol123kh
